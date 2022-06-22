@@ -1,0 +1,68 @@
+/COM    Quarz-Doppelstimmgabel
+/COM    o h n e  Verstaerkungsstaebe
+/COM
+/COM    Datei: D4.F18
+/COM
+/COM    Modalanalyse
+/COM    gesamte Geometrie (Loecher)
+/COM    Aufhaengung ganz eingespannt
+/PREP7
+/COM
+/TITLE, QUARTZ-DETF
+/COM
+/COM     Materialeigenschaften
+EX,1,.89E5
+NUXY,1,.123
+DENS,1,2.648E-9
+R,1,.125
+/COM     Knotenpunkte generieren
+K,1
+K,2,2.5
+K,3,2.5,.42
+K,4,2.6,.85
+K,5,3,.85
+K,,3.1,.42
+K,6,3.1,.42
+K,7,3.1
+K,8,3.7
+K,9,3.7,.897
+K,10,4.9,1.108
+K,11,7.5,1.108
+K,12,7.5,1.347
+K,13,4.9,1.347
+K,14,4.9,1.439
+K,15,1.914,1.439
+K,16,1.914,1.205
+K,17,0.9,1.205
+K,18,0.9,1.439
+K,19,,1.439
+/COM     Linien generieren
+L,1,2
+RP18,1,1
+L,19,1
+/COM     Flaechen generieren
+AL,ALL
+LOCAL,11,,,1.439
+ARSYM,2,1
+LOCAL,12,,7.5
+ARSYM,1,all
+NUMMRG,KPOI
+/COM    Elemente generieren:
+/COM    automatische Vernetzung
+ET,1,42
+ELSI,.35
+AMESH,1
+AMESH,2,4
+/COM    Randbedingungen
+CSYS
+NALL
+NUSEL,X,2.5,12.5
+D,ALL,ALL
+NINV
+M,ALL,UY
+NALL
+/COM    Analysetyp
+KAN,2
+KAY,2,10
+WSORT,X
+
