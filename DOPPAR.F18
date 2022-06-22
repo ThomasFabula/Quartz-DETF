@@ -1,0 +1,69 @@
+/COM   PREP7-Eingabedatei
+/COM
+/COM   Doppelstimmgabel mit
+/COM   parmetrisierte Eingabe
+/COM
+/SHOW,EGA256
+/TITLE, Quarz-Doppelstimmgabel
+/COM
+/COM   Parameter definieren
+/COM   L„ngenangaben in mm
+E=0.5
+L=(8*E)
+K=(2*E)
+X=(6*E)
+Y=(4*E)
+M=(5*E)
+/PNUM,NODE,1
+/COM   Knoten generieren
+N,1
+N,7,X
+FILL
+NGEN,5,7,1,7,1,0,E
+..
+
+N,36,E,M
+N,37,K,M
+NGEN,8,2,1,2,1,0,E
+..
+
+N,52,Y,M
+N,53,M,M
+NGEN,8,2,1,2,1,0,E
+..
+
+/COM    Elemente Generieren
+ET,1,42
+E,1,2,9,8
+EGEN,6,1,-1
+EGEN,4,7,-6
+E,30,31,37,36
+E,36,37,39,38
+EGEN,7,2,-1
+E,33,34,53,52
+E,52,53,55,54
+E,54,55,57,56
+EGEN,7,2,-1
+
+
+/COM   Materialeigenschaften
+/COM   [EX]=N/mm*mm
+/COM   [DE]=kg/mm*mm*mm
+EX,1,8.67e4
+NUXY,1,.123
+DENS,1,2.648e-6
+
+/COM   Dicke der Strucktur
+R,1,.125
+
+/COM   Randbedingungen
+/PBC,ALL,1
+NSEL,Y,0
+D,ALL,ALL
+NALL
+M,ALL,UX
+
+/COM   Analysetyp: Modalanalyse
+KAN,2
+KAY,2,10
+AFWR
