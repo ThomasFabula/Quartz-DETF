@@ -1,0 +1,27 @@
+/show,ega256
+/title, Modalanalyse
+kan,2
+kay,2,5
+kay,3,5
+et,1,42
+ex,1,210000
+nuxy,1,0.3
+dens,1,7.8e-9
+n,1
+n,9,800
+fill
+ngen,13,10,1,9,1,,100
+e,1,2,12,11
+egen,8,1,1
+egen,12,10,-8
+esel,,43,46
+easel,,51,54
+easel,,59,62
+c** edel,all
+c** eall
+ecomp
+total,15
+d,3,all
+d,7,all
+afwr
+
