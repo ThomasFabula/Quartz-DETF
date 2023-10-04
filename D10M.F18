@@ -1,4 +1,4 @@
-/COM    Quarz-Doppelstimmgabel
+/COM    Quarz-Doppelstimmgabel (DETF)
 /COM    m i t  Verstaerkungsstaeben
 /COM
 /COM    Datei: D10MS.F18
@@ -78,4 +78,3 @@ NALL
 KAN,0
 /COM    KAY,2,10
 WSORT,X
-
