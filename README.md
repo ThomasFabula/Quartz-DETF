@@ -1,4 +1,5 @@
 # Quartz-DETF
+FEM-Simulationen und experimentelle Messungen 
 
 ## Quartz resonant force sensors
 - https://tfconsult.com/tag/quarz/
