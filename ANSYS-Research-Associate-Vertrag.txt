@@ -6,7 +6,7 @@ Lizenznehmer:		Hahn-Schickard-Institut für Mikro- und Informationstechnik, D-77
 
 Programmversion:	ANSYS 4.4
 
-Rechnerplattform:	DECstation 3100, Digital Equipment Corporation (DEC)
+Rechnerplattform:	DECstation 3100, Digital Equipment Corporation (DEC), ULTRIX Betriebssystem
 
 
 
@@ -26,14 +26,14 @@ Im Bereich der Mikrotechnik, im Speziellen der Sensorik, gilt es FE-Modelle mit 
 3.)	Berücksichtigung der dreidimensionalen Struktur aufgrund der durch den anisotropen Ätzvorgang erzeugten Sensorgeometrie
 
 4.)	Berücksichtigung der Kopplung verschiedener Felder, im besonderen der Piezoelektrizität zur Anregung resonanter Strukturen
-sowie der bei mikrotechnischen Herstellungs­prozeßen entstehende wärmeinduzierte Streß
+sowie der bei mikrotechnischen Herstellungs­prozeßen entstehende wärmeinduzierte Spannung (thermal stress)
 
 
 Strukturoptimierung:
 
 Die hohe Leistungsfähigkeit der Workstationversion erlaubt die Optimierung von Strukturen bezüglich ihres statischen 
 und  dynamischen Verhaltens innerhalb eines vertretbaren Zeitrahmens. Aufgrund von Geometrieparameteränderungen wurden 
-im Berichtszeitraum resonante Kraftsensoren auf Stimmgabel- und Doppelstimmgabelbasis untersucht. In Abhängigkeit der 
+im Berichtszeitraum resonante Kraftsensoren auf Stimmgabel- und Doppelstimmgabelbasis (DETF) untersucht. In Abhängigkeit der 
 Strukturierung der Stimmgabelbefestigung (Schwingungsentkopplung) konnte eine Verbesserung der Schwingungseigenschaften 
 (Güte, Unimodalität, Empfindlichkeit) der Resonatoren nachgewiesen werden und somit zur dynamischen Strukturoptimierung 
 beigetragen werden. Die Verbesserung der statischen Eigenschaften, die Minimierung von Spannungsspitzen und Scherkräften, 
@@ -57,7 +57,7 @@ Piezoelektrische Untersuchungen:
 
 Erste piezoelektrische Rechnungen (KAN=2, KAN=6) wurden anhand einfacher Strukturgeometrien auf Quarzbasis durchgeführt. 
 Eine Einarbeitung er­folgte an verifizierbaren Beispielen, bei denen die Resonanz- (Anti- und Parallelresonanz) und 
-Impedanzverläufe bestimmt wurden.
+Impedanzverläufe experimentell bestimmt wurden.
 
 
 Th.Fabula
