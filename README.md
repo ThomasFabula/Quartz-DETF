@@ -1,5 +1,5 @@
 # Quartz-DETF
-FEM-Simulationen und experimentelle Messungen 
+FEM-Simulationen und experimentelle Messungen an Quarz-Stimmgabel Sensoren 
 
 ## Quartz resonant force sensors
 - https://tfconsult.com/tag/quarz/
