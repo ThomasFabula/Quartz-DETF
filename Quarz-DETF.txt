@@ -1,6 +1,7 @@
 FEM-Beispielrechnung:
 	
-Mit Hilfe dieser Rechnung (ANSYS, Ver. 4.4) sollten die Eigenfrequenzen eines resonanten Kraftsensors (Quartz-Doppelstimmgabel, DETF = Double-Ended-Tuning-Fork) und die zugehörigen Schwingungsformen grob bestimmt werden. 
+Mit Hilfe dieser Rechnung (ANSYS, Ver. 4.4) sollten die Eigenfrequenzen eines resonanten Kraftsensors (Quartz-Doppelstimmgabel, 
+DETF = Double-Ended-Tuning-Fork) und die zugehörigen Schwingungsformen grob bestimmt werden. 
 
 A.) Materialdaten:
 Material:	Quartz
@@ -10,7 +11,9 @@ Poissonzahl:	0.122894
 
 
 b.) Geometrie:
-Die Abmessungen wurden der AutoCAD-Zeichnung (siehe Anhang) entnommen. Die Dicke wurde mit 200 μm festgesetzt. Aufgrund der zweifachen Symmetrie wurde der Sensor mit 19 Keypoints eingegeben und die somit erhalten Fläche A1 anschließend vervielfältigt (siehe Bildschirm-Hardcopy im Anhang).
+Die Abmessungen wurden der AutoCAD-Zeichnung (siehe Anhang) entnommen. Die Dicke wurde mit 200 μm festgesetzt. Aufgrund der
+zweifachen Symmetrie wurde der Sensor mit 19 Keypoints eingegeben und die somit erhalten Fläche A1 anschließend vervielfältigt 
+(siehe Bildschirm-Hardcopy im Anhang).
 
 
 c.) Annahmen:
@@ -35,7 +38,8 @@ d.) Modellaufbereitung:
 
 
 e.) Ergebnisse:
-Die FEM-Berechnung mit ANSYS, Version 4.4 durchgeführt, ergaben auf einer Mikro-VAX II (ca. 1 MIPS, Rechenzeit ca. 20 min) folgende Resultate:
+Die FEM-Berechnung mit ANSYS, Version 4.4 durchgeführt, ergaben auf einer Mikro-VAX II (ca. 1 MIPS, Rechenzeit ca. 20 min) 
+folgende Resultate:
 
 	R.M.S. Wavefront:	191 	(entspricht einem kleinen Problem)
 
@@ -45,9 +49,11 @@ Die FEM-Berechnung mit ANSYS, Version 4.4 durchgeführt, ergaben auf einer Mikro
 				4. EF = 50.412 kHz
 				5. EF = 70.121 kHz
 
-Die Eigenformen der obigen fünf Eigenfrequenzen sind den Bildschirm-Hardcopies des Anhangs zu entnehmen. Die Schwingungsamplituden sind zwecks besserer Darstellung z.T. erheblich vergrößert (Faktor DSCA).
+Die Eigenformen der obigen fünf Eigenfrequenzen sind den Bildschirm-Hardcopies des Anhangs zu entnehmen. Die 
+Schwingungsamplituden sind zwecks besserer Darstellung z.T. erheblich vergrößert (Faktor DSCA).
 
-Die vierte Eigenform, mit einer Resonanzfrequenz von 50.4 kHz stellt die gewünschte Schwingungsart des Sensors dar, in der nur die beiden mittleren Stege zueinander, entgegengesetzt schwingen.
+Die vierte Eigenform, mit einer Resonanzfrequenz von 50.4 kHz stellt die gewünschte Schwingungsart des Sensors dar, 
+in der nur die beiden mittleren Stege zueinander, entgegengesetzt schwingen.
 
 
 
