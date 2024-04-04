@@ -10,3 +10,6 @@ FEM-Simulationen und experimentelle Messungen an Quarz-Stimmgabel Sensoren
 ## Quarz-Doppelstimmgabeln als Kraft-Sensoren 
 - https://tfconsult.com/berechnung-von-quarz-kraftsensoren/
 - https://tfconsult.com/fe-berechnungen-an-quarz-strukturen/
+- https://tfconsult.com/microsystems-modeling/
+- https://tfconsult.com/modellierung-mikrosysteme/
+- https://tfconsult.com/ansys-research-associate/
