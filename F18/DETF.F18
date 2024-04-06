@@ -1,0 +1,56 @@
+/COM    Quarz-Doppelstimmgabel
+/COM    DETF.F18
+/COM    ohne Loecher
+/COM    nur Randseiten eingespannt
+/COM
+/PREP7
+/COM
+/TITLE, QUARTZ-DETF
+ET,1,42
+EX,1,.89E5
+NUXY,1,.123
+DENS,1,2.648E-9
+R,1,.125
+k,1
+k,2,2.5
+k,3,2.5,.42
+k,4,2.6,.85
+k,5,3,.85
+k,,3.1,.42
+k,6,3.1,.42
+k,7,3.1
+k,8,3.7
+k,9,3.7,.295
+k,10,7.5,.295
+k,11,7.5,.775
+k,12,3.7,.775
+k,13,3.7,.897
+k,14,4.9,1.108
+k,15,7.5,1.108
+k,16,7.5,1.347
+k,17,4.9,1.347
+k,18,4.9,1.439
+k,19,,1.439
+l,1,2
+rp18,1,1
+l,19,1
+al,all
+local,11,,,1.439
+arsym,2,1
+local,12,,7.5
+arsym,1,all
+nummrg,kpoi
+ELSI,.75
+AMESH,1
+AMESH,2,4
+csys
+NSEL,x
+nase,x,15
+d,all,all
+nall
+m,all,uy
+kan,2
+kay,2,10
+wsort,x
+afwr
+fini
