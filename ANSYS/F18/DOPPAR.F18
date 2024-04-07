@@ -1,13 +1,12 @@
 /COM   PREP7-Eingabedatei
 /COM
-/COM   Doppelstimmgabel mit
-/COM   parmetrisierte Eingabe
+/COM   Doppelstimmgabel mit parametrisierter Eingabe
 /COM
 /SHOW,EGA256
 /TITLE, Quarz-Doppelstimmgabel
 /COM
 /COM   Parameter definieren
-/COM   L„ngenangaben in mm
+/COM   LÃ¤ngenangaben in mm
 E=0.5
 L=(8*E)
 K=(2*E)
