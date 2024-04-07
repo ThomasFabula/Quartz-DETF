@@ -1,6 +1,6 @@
 program Qparm;
 uses crt;
-{Berechnet R,L,C,Q und fs eines Quarzes aus den Simulationsergebnissen für Co und den Real- und Imaginärteil des komplexen Widerstandes bei zwei Frequenzen in der Naehe der Resonanzfrequenz}
+{Berechnet R,L,C,Q und fs eines Quarzes aus den Simulationsergebnissen fÃ¼r Co und den Real- und ImaginÃ¤rteil des komplexen Widerstandes bei zwei Frequenzen in der Naehe der Resonanzfrequenz}
 
 var
    r1,x1,r2,x2,a1,b1,a2,b2 :double;
@@ -18,14 +18,14 @@ begin
    readln (f1);
    write('Realteil bei f1 in Ohm:       ');
    read (r1);
-   write('Imagin„rteil bei f1 in Ohm:   ');
+   write('Imaginâ€rteil bei f1 in Ohm:   ');
    readln (x1);
    writeln;
    write('f2 eingeben in Hz:            ');
    readln (f2);
    write('Realteil bei f2 in Ohm:       ');
    readln (r2);
-   write('Imagin„rteil bei f2 in Ohm:   ');
+   write('Imaginâ€rteil bei f2 in Ohm:   ');
    readln (x2);
    w1 := 2*pi*f1;
    w2 := 2*pi*f2;
