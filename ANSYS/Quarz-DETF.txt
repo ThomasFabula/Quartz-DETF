@@ -1,10 +1,10 @@
 FEM-Beispielrechnung:
 	
-Mit Hilfe dieser Rechnung (ANSYS, Ver. 4.4) sollten die Eigenfrequenzen eines resonanten Kraftsensors (Quartz-Doppelstimmgabel, 
+Mit Hilfe dieser Rechnung (ANSYS, Ver. 4.4) sollten die Eigenfrequenzen eines resonanten Kraftsensors (Quarz-Doppelstimmgabel, 
 DETF = Double-Ended-Tuning-Fork) und die zugehörigen Schwingungsformen grob bestimmt werden. 
 
 A.) Materialdaten:
-Material:	Quartz
+Material:	Quarz
 E-Modul:	8.9 * 10e10 g/mm² (isotrop)
 Dichte:		2.648 g/ccm
 Poissonzahl:	0.122894
@@ -21,9 +21,8 @@ Zur Vereinfachung wurden bei der Berechnung folgende Annahmen getroffen:
 -	unbelasteter Sensor (Zugkraft = 0)
 -	Isotroper Elastizitätsmodul
 -	freie, ungedämpfte Schwingung (ANSYS-Analysetyp KAN=2)
--	Vernachlässigung der piezoelektrischen Schwingungsanregung (erfordert 
-
-eine gekoppelte Feldberechnung: elektrisches Feld <-> mechanische Spannung)
+-	Vernachlässigung der piezoelektrischen Schwingungsanregung 
+	(erfordert eine gekoppelte Feldberechnung: elektrisches Feld <-> mechanische Spannung)
 -	Schwingungen wurden nur in der X-Y-Ebene zugelassen, aufgrund der Auswahl des Elementes STIF42
 -	Geometrie nicht vollständig erfaßt (Mittellöcher, Aufhängung zur Krafteinleitung)
 -	Randbedingungen z.T. idealisiert: für die Bereiche x=0 und x=15 mm wurden keine Schwingungen zugelassen.
@@ -38,7 +37,7 @@ d.) Modellaufbereitung:
 
 
 e.) Ergebnisse:
-Die FEM-Berechnung mit ANSYS, Version 4.4 durchgeführt, ergaben auf einer Mikro-VAX II (ca. 1 MIPS, Rechenzeit ca. 20 min) 
+Die FEM-Berechnung mit ANSYS, Version 4.4 durchgeführt, ergaben auf einer Micro-VAX II (ca. 1 MIPS, Rechenzeit ca. 20 min) 
 folgende Resultate:
 
 	R.M.S. Wavefront:	191 	(entspricht einem kleinen Problem)
@@ -58,4 +57,4 @@ in der nur die beiden mittleren Stege zueinander, entgegengesetzt schwingen.
 
 
 Th.Fabula, 13.10.1989
-(Berechnet bei der Fa. CAD-FEM, Ebersberg)
+(Berechnet bei der Fa. CAD-FEM GmbH, Ebersberg)
