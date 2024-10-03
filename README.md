@@ -1,5 +1,8 @@
 # Quartz-DETF
-FEM-Simulationen und experimentelle Messungen an Quarz-Doppel-Stimmgabel Sensoren 
+German
+- FEM-Simulationen und experimentelle Messungen an Quarz-Doppel-Stimmgabel Sensoren 
+English
+- FEM simulations and experimental measurements on quartz dual tuning fork sensors
 
 ## Quartz resonant force sensors
 - https://tfconsult.com/tag/quarz/
