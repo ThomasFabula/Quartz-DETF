@@ -1,6 +1,7 @@
 # Quartz-DETF
 German
-- FEM-Simulationen und experimentelle Messungen an Quarz-Doppel-Stimmgabel Sensoren 
+- FEM-Simulationen und experimentelle Messungen an Quarz-Doppel-Stimmgabel Sensoren
+  
 English
 - FEM simulations and experimental measurements on quartz dual tuning fork sensors
 
